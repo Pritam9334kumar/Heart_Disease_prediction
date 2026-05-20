@@ -38,7 +38,7 @@ columns_file = find_file([
 ], ["column", "columns"])
 
 if not model_file or not scaler_file or not columns_file:
-    st.title("Heart Stroke Prediction by akarsh")
+    st.title("Heart Stroke Prediction by pritam")
     st.error(
         "Required model/scaler/columns .pkl files not found. Place them in the app folder."
     )
