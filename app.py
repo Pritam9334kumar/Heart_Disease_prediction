@@ -65,7 +65,7 @@ if not isinstance(expected_columns, (list, tuple)):
         st.error("`columns.pkl` did not contain a list of expected column names.")
         st.stop()
 
-st.title("Heart Stroke Prediction by akarsh")
+st.title("Heart Stroke Prediction by pritam")
 st.markdown("Provide the following details to check your heart stroke risk:")
 
 # Collect user input
