@@ -52,7 +52,7 @@ try:
     scaler = joblib.load(scaler_file)
     expected_columns = joblib.load(columns_file)
 except Exception as e:
-    st.title("Heart Stroke Prediction by akarsh")
+    st.title("Heart Stroke Prediction")
     st.error(f"Failed to load resources: {e}")
     st.stop()
 
